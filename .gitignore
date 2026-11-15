@@ -1,0 +1,18 @@
+# NEVER commit secrets. Pre-push scan required (Ridho 2026-11-16): check .gitignore + scan all files before any git push.
+.env
+*.env
+*.pem
+*.key
+*secret*
+*seed*
+credentials
+makefun-keypair.json
+connect.json
+signature.txt
+sign.mjs
+poll.py
+kit.tar.gz
+node_modules/
+__pycache__/
+*.log
+.DS_Store
